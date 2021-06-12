@@ -1,6 +1,10 @@
 # Readme
 
 I have approch this problem with Nodejs React and postgres with postgis extention
+For tranforming input address to co-ordinates I am using mapbox API
+
+## Bugs
+
 
 ## Db schema
 

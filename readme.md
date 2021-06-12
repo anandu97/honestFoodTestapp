@@ -18,7 +18,8 @@ outletAreaGeom: Geometry; Outlet Service Area (type - Polygon)
 
 # Postgres script
 
-honestFoodTestBackend/src/api/services/Outlet/OutletService.ts
+[OutletService](honestFoodTestBackend/src/api/services/Outlet/OutletService.ts)
+
 
 ```
 SELECT *

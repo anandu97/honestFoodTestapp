@@ -2,7 +2,7 @@
 
 I have approch this problem with Nodejs React and postgres with postgis extention
 
-# Db schema
+## Db schema
 
 
 [typeorm model](honestFoodTestBackend/src/api/models/Outlet/Outlet.ts)
@@ -16,7 +16,7 @@ area_name: string;
 outletGeom: Geometry; Outlet location (type - Point)
 outletAreaGeom: Geometry; Outlet Service Area (type - Polygon)
 
-# Postgres script
+## Postgres script
 
 [OutletService](honestFoodTestBackend/src/api/services/Outlet/OutletService.ts)
 
@@ -30,7 +30,7 @@ WHERE ST_Contains("outlets"."outletAreaGeom",(ST_SetSRID(ST_MakePoint(${lat},${l
 
 using ST_Contains method of postgis postgres I am able to check if a point(latitude,logitude) belongs to a Geometry polygon
 
-# Dump
+## Dump
 
 I have tried to create a script to automate area polygons and names from KML and insert it to DB.Full do to lack of time I had manully inserted the values from KML file to DB .
 
@@ -38,7 +38,7 @@ I have tried to create a script to automate area polygons and names from KML and
 [Db dump in csv ](honestFoodTestBackend/honestfoodoutlet)
 
 
-# Backend Usage
+## Backend Usage
 
 cd honestFoodTestBackend
 
@@ -47,12 +47,12 @@ create a .env file using the sample .env.example
 npm install
 npm run dev
 
-# frontend usage
+## frontend usage
 
 npm install
 npm start
 
-# Db setup
+## Db setup
 
 add postgis extention to postgres database
 ```

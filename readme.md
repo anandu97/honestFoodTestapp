@@ -36,7 +36,7 @@ using ST_Contains method of postgis postgres I am able to check if a point(latit
 
 ## Dump
 
-I have tried to create a script to automate area polygons and names from KML and insert it to DB.Full do to lack of time I had manully inserted the values from KML file to DB .
+I have tried to create a script to automate area polygons and names from KML and insert it to DB.But Failed to complete the script  due to lack of time so  had to manaully insert the values from KML file to DB .
 
 [Automation Script Incomplete](honestFoodTestBackend/src/database/seeds/CreateOutlets.ts) and 
 [Db dump in csv ](honestFoodTestBackend/honestfoodoutlet)

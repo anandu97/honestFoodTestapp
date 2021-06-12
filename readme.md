@@ -5,7 +5,7 @@ I have approch this problem with Nodejs React and postgres with postgis extentio
 # Db schema
 
 
-model(honestFoodTestBackend/src/api/models/Outlet/Outlet.ts)
+[typeorm model](honestFoodTestBackend/src/api/models/Outlet/Outlet.ts)
 
 Table outlets
 

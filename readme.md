@@ -55,7 +55,7 @@ npm start
 # Db setup
 
 add postgis extention to postgres database
-
+```
 CREATE EXTENSION postgis;
 
 CREATE TABLE public.outlets
@@ -68,3 +68,4 @@ area_name character varying COLLATE pg_catalog."default",
 "outletAreaGeom" geometry(Polygon,4326),
 CONSTRAINT "PK_4f218ad1778c5c01d7bf77bab02" PRIMARY KEY (id)
 )
+```

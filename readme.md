@@ -60,6 +60,7 @@ add postgis extention to postgres database
 ```
 CREATE EXTENSION postgis;
 
+
 CREATE TABLE public.outlets
 (
 id integer NOT NULL DEFAULT nextval('outlets_id_seq'::regclass),

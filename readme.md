@@ -4,7 +4,8 @@ I have approch this problem with Nodejs React and postgres with postgis extentio
 
 # Db schema
 
-honestFoodTestBackend/src/api/models/Outlet/Outlet.ts
+
+(honestFoodTestBackend/src/api/models/Outlet/Outlet.ts)
 
 Table outlets
 

@@ -40,18 +40,20 @@ I have tried to create a script to automate area polygons and names from KML and
 
 ## Backend Usage
 
+```
 cd honestFoodTestBackend
-
+```
 create a .env file using the sample .env.example
 
+```
 npm install
 npm run dev
-
+```
 ## frontend usage
-
+```
 npm install
 npm start
-
+```
 ## Db setup
 
 add postgis extention to postgres database
